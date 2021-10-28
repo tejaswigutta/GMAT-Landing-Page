@@ -735,6 +735,10 @@ input::placeholder {
         max-width: 77.25rem;
     }
 
+    .application-process,.plan{
+        display:none;
+    }
+
     .why-better p:first-child {
         font-size: 1.125rem;
         line-height: 150%;
