@@ -187,7 +187,11 @@ input::placeholder {
     background-size: contain;
     background-position: center;
     height: 7.5rem;
+}
 
+.plan{
+    display:flex;
+    justify-content: space-around;
 }
 
 .why-better {
@@ -311,7 +315,7 @@ input::placeholder {
 
 .success-card-1 {
     height: 45%;
-    border: 1px solid red;
+    border: 1px solid #848484;
     background-color: #848484;
     border-radius: 16px 16px 0px 0px;
 }
