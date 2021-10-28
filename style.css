@@ -181,8 +181,13 @@ input::placeholder {
     text-align: center;
 }
 
-.profile-building img {
-    width: 100vw;
+.profile-img{
+    background-image: url("./Assets/profile building.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height:7.5rem;
+
 }
 
 .why-better {
@@ -308,6 +313,7 @@ input::placeholder {
     height: 45%;
     border: 1px solid red;
     background-color: #848484;
+    border-radius: 16px 16px 0px 0px;
 }
 
 .success-card-gmat-mba {
@@ -353,7 +359,11 @@ input::placeholder {
 
 .MBA-2021{
     color:white;
-    margin-top: 5.6rem;
+    display:flex;
+    justify-content: space-between;
+    padding-left:0.75rem;
+    padding-right: 0.75rem;
+    margin-top: 1.5rem;
 }
 
 .success-details p:first-child {
@@ -645,6 +655,10 @@ input::placeholder {
 
     .profile-building p {
         font-size: 0.75rem;
+    }
+
+    .profile-building img{
+        max-width: 77.25rem;
     }
 
     .why-better p:first-child {
