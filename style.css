@@ -96,7 +96,6 @@ input::placeholder {
     border: none;
     left: 50%;
     cursor: pointer;
-
 }
 
 .programs {
@@ -174,8 +173,8 @@ input::placeholder {
     transition: 0.3s;
 }
 
-.profile-building p {
-    font-size: 1rem;
+.profile-building-heading {
+    font-size: 2rem;
     line-height: 180%;
     color: #322C49;
     text-align: center;
@@ -187,11 +186,61 @@ input::placeholder {
     background-size: contain;
     background-position: center;
     height: 7.5rem;
+    margin-bottom: 1rem;
 }
 
-.plan{
-    display:flex;
+.plan {
+    display: flex;
     justify-content: space-around;
+}
+
+.application-process {
+    padding-left: 1rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 6rem;
+}
+
+.part-1 img {
+    width: 11.6rem;
+    text-align: center;
+}
+
+.part-2 {
+    margin-right: 13rem;
+    margin-top: 0;
+}
+
+.part-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.part-3-1 {
+    display: flex;
+    /* justify-content: space-between;
+    border:2px solid red;
+    width:100%; */
+    padding-right: 0rem;
+    margin-right: 0rem;
+}
+
+.part-3-1 div:first-child {
+    margin-right: 2rem;
+}
+
+
+.part-3-1 div:nth-child(2) {
+    margin-right: 3.2rem;
+}
+
+.part-3-2 {
+    text-align: center;
 }
 
 .why-better {
@@ -302,7 +351,6 @@ input::placeholder {
 .success-cards-div {
     display: flex;
     justify-content: space-between;
-
 }
 
 .success-cards {
@@ -333,7 +381,6 @@ input::placeholder {
 
 .success-cards {
     padding: 0.5% 0.5%;
-
 }
 
 .success-card-1-1 {
@@ -346,7 +393,7 @@ input::placeholder {
     margin-bottom: 0rem;
 }
 
-.success-details{
+.success-details {
     margin-left: 0.5rem;
 }
 
@@ -385,13 +432,14 @@ input::placeholder {
     justify-content: space-between;
 }
 
-.success-card-2-1{
-    display:flex;
+.success-card-2-1 {
+    display: flex;
     justify-content: space-between;
-    height:10rem;
+    height: 10rem;
 }
 
-.success-col-1 div,.success-col-3 div{
+.success-col-1 div,
+.success-col-3 div {
     width: 7rem;
     font-size: 0.875rem;
     line-height: 150%;
@@ -399,7 +447,7 @@ input::placeholder {
     text-align: center;
 }
 
-.success-col-2{
+.success-col-2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -805,7 +853,4 @@ input::placeholder {
     #footer {
         height: 3.5rem;
     }
-
-
-
 }
